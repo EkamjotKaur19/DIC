@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/930e1fbc2d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Lato:ital@1&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="container">
+      <ul>
+        <li class="navigation"><a class="active" href="#home">Home</a></li>
+        <li class="navigation"><a href="#seventh">Contact</a></li>
+        <li class="navigation"><a href="#third">About</a></li>
+      </ul>
+    </nav>
+
+    <section id="first">
+      <div class="banner">
+        <h1 class="hero-text">Panjab University</h1>
+      </div>
+    </section>
+
+    <section id="second">
+      <div class="stats">
+        <h2 class="stats-text">Our Noble Alumni</h2>
+        <table class="table">
+          <thead>
+            <th>Branch</th>
+            <th>Admissions</th>
+            <th>Research papers</th>
+            <th>Avg Salary(LPA)</th>
+          </thead>
+          <tbody>
+            <td>
+              <ul>
+                <li>Biotech</li>
+                <li>Computer Science</li>
+                <li>Information Technology</li>
+                <li>Electronics</li>
+                <li>Mechanical</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>134</li>
+                <li>120</li>
+                <li>120</li>
+                <li>124</li>
+                <li>124</li>
+              </ul>
+            </td>
+            
+            <td>
+              <ul>
+                <li>15</li>
+                <li>8</li>
+                <li>14</li>
+                <li>17</li>
+                <li>5</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>4</li>
+                <li>9.8</li>
+                <li>4</li>
+                <li>5</li>
+                <li>5</li>
+              </ul>
+            </td>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="third">
+      <div class="faculty">
+        <h2 class="faculty-text">Faculty and honors</h2>
+        <div class="faculty-container">
+          <div class="professor">
+            <img class="faculty-1" src="/images/OIP (3).jpg" alt="prof-image" />
+            <div class="prof-desc">
+              <em>Daniel richards</em>
+              <p class="prof-text">Assistant professor(CSE)</p>
+              <p class="prof-text">B.Tech(Harvard) 1992-1996</p>
+              <p class="prof-text">6 Research papers published</p>
+            </div>
+          </div>
+          <div class="professor">
+            <img
+              class="faculty-1"
+              src="/images/OIP (2).jpg"
+              alt="prof-image"
+            />
+            <div class="prof-desc">
+              <em>Sangeeta bhatia</em>
+              <p class="prof-text">Senior professor(ECE)</p>
+              <p class="prof-text">B.Tech-M.Tech(IIT KGP) 2002-2008</p>
+              <p class="prof-text">PHd gold medalist(Semi-conductors)</p>
+            </div>
+          </div>
+          <div class="professor">
+            <img
+              class="faculty-1"
+              src="/images/OIP (1).jpg"
+              alt="prof-image"
+            />
+            <div class="prof-text">
+              <em>John galliard</em>
+              <p class="prof-text">Professor(Mech)</p>
+              <p class="prof-text">B.Tech(IITB) 2002-2006</p>
+              <p class="prof-text">8 Research papers published</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fourth">
+      
+        <h2 class="campus-text">Campus Tour</h2>
+        <video width="800" height="500" controls>
+        <source type="video/mp4" src="./video/Pexels Videos 2002527.mp4" />
+      </video>
+   
+    </section>
+  
+    <section id="fifth">
+      <h2 class="query-text">Query Form</h2>
+      <div class="form-style-5">
+        <form>
+        <fieldset>
+        <legend><span class="number">1</span> Candidate Info</legend>
+        <input type="text" name="field1" placeholder="Your Name *">
+        <input type="email" name="field2" placeholder="Your Email *">
+        <textarea name="field3" placeholder="About yourself"></textarea>    
+        </fieldset>
+        <fieldset>
+        <legend><span class="number">2</span> Message</legend>
+        <textarea name="field3" placeholder="About Your School"></textarea>
+        </fieldset>
+        <input type="submit" value="Send" />
+        </form>
+        </div>
+    </section>
+  <section id="sixth">
+    <h2 class="frame-text">College Ranking</h2>
+    <div class="iframe">
+      <iframe class="clg-duniya" src="https://www.youtube.com/embed/dsGUW6tjAKs" height="200" width="300" frameborder="0"></iframe>
+    </div>
+  </section>
+
+  <section id="eighth">
+        <div class="form-style-6">
+            <h1 class="query-head">Query Section</h1>
+            <form name="myform" action="/" method="post" onsubmit="return validateForm()">
+            <fieldset>
+            <legend><span class="number">1</span> Name</legend>
+            <input type="text" name="field1" placeholder="Your Name *">
+            <legend><span class="number">2</span>Email</legend>
+            <input type="email" name="field2" placeholder="Your Email *">
+            <legend><span class="number">3</span>Number</legend>
+            <input type="number" name="field3" placeholder="Your Number *">
+            <legend><span class="number">4</span>Query</legend>
+            <textarea name="field4" placeholder="About yourself"></textarea>    
+            </fieldset>
+            <input type="submit" value="Send" />
+            
+            </form>
+        </div>
+  </section>
+
+  <section id="ninth">
+    <h1 class="faq">Read FAQs</h1>
+    <a href="faq.html">Click for FAQS</a>
+
+  </section>
+
+  <section id="tenth">
+    <h1 class="rev">Reviews</h1>
+    <a href="review.html">Click for Reviews</a>
+
+  </section>
+
+
+
+
+
+  <footer id="seventh">
+
+  <div class="footer-container">
+    
+    <div class="social">
+      <a href="https://www.instagram.com/shivanshudobhal/">Instagram</a>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/home.php">Facebook</a>
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/shivanshu-dobhal-544188173//">linkedin</a>
+    </div>
+
+  </div>
+  </footer>
+
+  </body>
+  <script src="app.js"></script>
+
+  
+</html>
